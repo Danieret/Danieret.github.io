@@ -1,0 +1,21 @@
+
+
+.wiki{
+
+    height: 600px;
+            width: 500px;
+            font-size: 25px;
+            line-height: 150px
+           
+
+
+}
+
+body  {
+    background-image: url("universe.jpg");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff
+}

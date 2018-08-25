@@ -1,0 +1,75 @@
+<html>
+
+
+                <head>
+                        <link rel = "stylesheet"
+                        type = "text/css"
+                        href = "blog2.css" />
+
+                    </head>
+
+
+<body>
+
+
+<div class= fejlec>
+<h1>Napi Jegyzet</h1>
+
+
+</div>
+
+<form action="/action_page.php">
+    Új bejegyzés: <input type="text" name="fname"><br>
+   
+    <input type="submit" value="Submit">
+  </form>
+
+  <button>
+
+    Bejegyzés hozzáadása
+    
+  </button>
+
+
+
+<div class= wiki>
+
+<iframe src="https://en.wikipedia.org/wiki/Free_will"></iframe>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+        
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyB_qoQcC2JD16xrCLJ1ORlq1IS7FQauq0Q",
+    authDomain: "summercampdani.firebaseapp.com",
+    databaseURL: "https://summercampdani.firebaseio.com",
+    projectId: "summercampdani",
+    storageBucket: "summercampdani.appspot.com",
+    messagingSenderId: "128171589171"
+  };
+  firebase.initializeApp(config);
+  fb = firebase.database();
+</script>
+
+
+
+
+
+
+
+<script src="blog2.js"></script>
+
+
+
+</body>
+
+
+
+</html>
