@@ -1,5 +1,57 @@
 
+/*.dobozok{
+    
+    background: #0f042c
+    
+    background-position: left;
+    background-size: 100px ;
+    text-align: center;
 
+
+  
+    color: #fdfdfd;
+
+ 
+   height: 150px;
+    width: 400px;
+    
+*/
+
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+
+
+
+
+.fejlec{
+
+
+    text-align: center;
+}
+
+}
 .wiki{
 
     height: 600px;
@@ -18,4 +70,54 @@ body  {
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff
+}
+
+.kepek{
+
+
+
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid rgb(178, 207, 209);
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #9fbebd;}
+
+#customers tr:hover {background-color: rgb(120, 141, 150);}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(53, 43, 77);
+    color: white;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }

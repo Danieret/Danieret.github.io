@@ -1,4 +1,8 @@
-$($('button').on('click', function() {
+
+
+
+
+$($('.button').on('click', function() {
     let val = $('input').val();
     $("ul").append("<li>"+val+"</li>");
     
